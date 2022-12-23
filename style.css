@@ -1,0 +1,64 @@
+*{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 300px;
+}
+#flag {
+        width: 500px;
+        height: 300px;
+        background-color: black;
+        
+        position: relative;
+        font-size: 16px;
+        
+        letter-spacing: 0.2em;
+        text-align: center;
+        text-transform: uppercase;
+        /* clip-path: polygon(100% 1%, 100% 75%, 60% 100%, 0 100%, 0 0);
+        shape-outside: polygon(100% 1%, 100% 75%, 60% 100%, 0 100%, 0 0); */
+        border-radius: 10px;
+        box-sizing: border-box;
+        /* overflow: hidden; */
+        border-radius: 12.0933px;
+        border: 2px solid red;
+        /* clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); */
+
+        }
+
+        p{
+            color: aliceblue;
+            background-color: black;
+        }
+         #flag::after {
+        content: "";
+        position: absolute;
+        background: white;
+         
+         left: 425px;
+        right: 0px;
+        bottom: -25px;
+        width: 90px;
+        height: 50px;
+        transform: rotate(150deg);
+        border-bottom: 2px solid red;
+        } 
+        
+        
+        
+        
+        
+        
+        
+        
